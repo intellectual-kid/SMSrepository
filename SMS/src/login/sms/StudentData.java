@@ -8,19 +8,12 @@ public class StudentData {
 		public void  display() 
 		{
 			System.out.println("Data! ");
-<<<<<<< HEAD
-			for(int i:data)
-=======
 			int sum=0;
-			for(int i=0;i< data.length;i++)
->>>>>>> refs/remotes/origin/master
+				for(int i:data)
 			{
 				System.out.println("Next value:" + data[i]);
 				sum+=i;
 			}
 			System.out.println("Sum is: " + sum);
 		}
-		
-		
-	
-}
+	}
