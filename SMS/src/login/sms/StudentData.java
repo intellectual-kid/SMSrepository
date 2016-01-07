@@ -10,7 +10,7 @@ public class StudentData {
 		{
 			System.out.println("This is your Data ");
 			int sum=0;
-			for(int i:data)			
+			for(int i=0;i<data.length;i++)			
 			{
 				System.out.println("Next value:" + data[i]);
 				sum+=i;
